@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "gulp-cli": "^2.2.0"
-  },
   "name": "supergulp",
   "version": "1.0.0",
   "main": "index.js",
@@ -13,6 +10,10 @@
     "build": "gulp build"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0"
   }
 }
