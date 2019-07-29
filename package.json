@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "gulp-cli": "^2.2.0"
+  },
+  "name": "supergulp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jungwoonlim/supergulp.git",
+  "author": "jungwoonlim <wypo23@morpheus3d.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
